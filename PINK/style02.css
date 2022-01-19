@@ -1,0 +1,138 @@
+.background{
+    background-color:#ffffff;
+    width: auto;
+    height: auto;
+}
+
+.container{  
+    background-color:#ffffff;
+    height: auto;  
+    width: auto;
+    margin-left: auto;
+    margin-right:auto;
+    padding: auto;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+@media (max-width:768px){
+    .container{padding-right: 0;}
+    .up{margin-top: 60px;}
+}
+
+@media (max-width:480px){
+    .container{padding-right: 0;}
+    .word1{font-size: 10px;}
+    .up{margin-top: 40px;}
+    .nav{margin-top: 20px;
+         width: auto;
+         flex-direction: column;
+         height: auto;
+         justify-content: center;}
+    .nav-list{justify-content: center;}
+}
+
+.header{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.BIGlogo{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Regular';
+    letter-spacing: 2.5px;
+    color: #242424;
+    width: auto;
+    height: 50px;
+}
+
+.nav-list{
+    display: flex;
+    padding: 0;
+}
+
+.nav-list-item{
+    list-style: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+a{
+    color: #242424;
+    text-decoration:none;
+}
+
+.up{
+    width: auto;
+    height: 100px;
+}
+
+#box { 
+    border-radius: 3px;
+    background-color: #ffb6a9;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.word1{
+    display: flex;
+    justify-content: center;
+    color:#242424;
+    font-family: 'Arial Regular';
+    letter-spacing: 2.5px;
+}
+
+.know{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.words{
+    justify-content: center;
+    align-items: center;
+    color: #242424;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 2px;
+    font-family: 'Arial Regular';
+}
+
+.footer{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+
+#box3{
+    border-radius: 3px;
+    background-color: #ffb6a9;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.word3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Regular';
+    font-size: small;
+    letter-spacing: 2px;
+    color: #242424;
+}
